@@ -31,24 +31,24 @@ The text data (`cleaned_chatbot_data.csv`) is cleaned and normalized using a cus
 
 ## How to Run This Project
 
-1.  **Clone the repository:**
+1.  Clone the repository:
     ```bash
     git clone [https://github.com/Shivpoojan833/Intent-Classification-Chatbot.git](https://github.com/Shivpoojan833/Intent-Classification-Chatbot.git)
     cd Intent-Classification-Chatbot
     ```
 
-2.  **Create a virtual environment:**
+2.  Create a virtual environment:
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
     ```
 
-3.  **Install dependencies:**
+3.  Install dependencies:
     ```bash
     pip install -r requirements.txt
     ```
 
-4.  **Download NLTK data:**
+4.  Download NLTK data:
     ```python
     # Run this in a Python shell
     import nltk
@@ -57,10 +57,9 @@ The text data (`cleaned_chatbot_data.csv`) is cleaned and normalized using a cus
     nltk.download('wordnet')
     ```
 
-5.  **(Add your instructions for getting the data and training the model here)**
-    * Example: "Download the dataset from [Kaggle Link]. Place it in the folder and run `python train_model.py` to generate the `.pkl` files."
-
-6.  **Run the chat:**
+5.  Pick up the dataset from various sources like Kaggle, Roboflow, UCLA, IEEE etc.
+   
+6.  Run the chat:
     ```bash
     python chat.py
     ```
